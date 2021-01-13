@@ -26,8 +26,6 @@ function App() {
     });
   };
   const handleClientSDKClick = () => {
-    console.log(JSON.stringify(clientSideAmplitudeSDK, null, 4));
-
     clientSideAmplitudeSDK.logEvent("client-side library event");
   };
 
